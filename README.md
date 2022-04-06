@@ -1,5 +1,5 @@
-# dvc-project-template
-DVC project template
+# Mlflow-project-template
+Mlflow project template
 
 ## STEPS -
 
@@ -26,9 +26,9 @@ source activate ./env
 pip install -r requirements.txt
 ```
 
-### STEP 05- initialize the dvc project
-```bash
-dvc init
+### STEP 05 -create conda.yaml file -
+```
+conda env export > conda.yaml
 ```
 
 ### STEP 06- commit and push the changes to the remote repository
